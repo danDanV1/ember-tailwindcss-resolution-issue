@@ -1,5 +1,7 @@
+/* ember-component-css */
+@import "pod-styles";
+
+/* tailwindcss */
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
