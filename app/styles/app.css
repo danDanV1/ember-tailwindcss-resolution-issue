@@ -1,7 +1,13 @@
 /* ember-component-css */
 @import "pod-styles";
 
-/* tailwindcss */
+@import "additional.css";
+
+/* tailwindcss !! Must be loaded after all imports !!*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 100px;
+}
